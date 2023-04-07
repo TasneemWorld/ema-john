@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Product.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import Test from '../Test/Test';
+
+// test state
+
 
 
 const Product = (props) => {
     // console.log(props)
     const { img, name, seller, ratings, quantity, price } = props.product;
     const handlerAddToCart = props.handlerAddToCart;
+
 
     return (
         <div className='product'>

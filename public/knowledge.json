@@ -1,0 +1,30 @@
+[
+    {
+        "coverImageUrl": "https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "authorImage": "https://images.unsplash.com/photo-1600188769099-d25b4ec79659?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "writingDate": "2022-01-15",
+        "title": "The Benefits of Learning a New Language",
+        "readingTime": "8 minutes"
+    },
+    {
+        "coverImageUrl": "https://images.unsplash.com/photo-1499290731724-12e120cfaef3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "authorImage": "https://images.unsplash.com/photo-1600188768149-f27db3bc6ef9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "writingDate": "2022-02-28",
+        "title": "5 Tips for Effective Time Management when you learn programming",
+        "readingTime": "7 minutes"
+    },
+    {
+        "coverImageUrl": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "authorImage": "https://images.unsplash.com/photo-1611199340099-91a595a86812?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "writingDate": "2022-03-10",
+        "title": "The Importance of reading for Productivity",
+        "readingTime": "6 minutes"
+    },
+    {
+        "coverImageUrl": "https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+        "authorImage": "https://images.unsplash.com/photo-1597524734346-1e97c3b946c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "writingDate": "2022-04-02",
+        "title": "How to Build Your Personal Brand Online",
+        "readingTime": "9 minutes"
+    }
+]
