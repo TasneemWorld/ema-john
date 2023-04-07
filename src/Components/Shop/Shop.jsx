@@ -19,6 +19,8 @@ const Shop = () => {
 
     const [cart, setCart] = useState([])
 
+    
+    
     const handlerAddToCart = (singleProduct) => {
         // console.log(singleProduct)
         let newCart = []
@@ -33,26 +35,39 @@ const Shop = () => {
             const remaining = cart.filter(product => product.id !== singleProduct.id)
             newCart = [...remaining,exists]
         }
+
         setCart(newCart)
+
+        // passing id to the local storage 
         addToDb(singleProduct.id)
     }
 
+    
+    
     useEffect(() => {
+
         const storedCart = getShoppingCart()
         // console.log(storeCart)
         const savedCart = [];
 
         for (const id in storedCart) {
+
             const savedProduct = products.find(product => product.id === id)
+
             if (savedProduct) {
+
                 const quantity = storedCart[id];                // why we do not use sotredCart.id
                 savedProduct.quantity = quantity;
                 console.log(savedProduct)
                 savedCart.push(savedProduct)
             }
         }
+
         setCart(savedCart)
     }, [products])
+
+
+    
 
     return (
         <div className='shop-container'>
